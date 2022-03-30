@@ -4,13 +4,15 @@ A simple stock ticker solution based on downloaded stock files.  Uses redisearch
 
 ![](src/static/typeaheadStocks.png)
 
-## Initial project setup
+## Getting Started
 
-Get this github code
 
-```bash 
-get clone https://github.com/jphaugla/redisearchStock.git
+### Clone the repository
+
 ```
+git clone https://github.com/redis-developer/redisearchStock
+```
+
 
 Two options for setting the environment are given:  
   * run with docker-compose using a flask and redis container
