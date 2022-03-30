@@ -1,4 +1,4 @@
-# A Simple Stock Ticker 
+# A Simple Stock Ticker using Redis Stack
 
 ![image2](https://raw.githubusercontent.com/redis-developer/stockticker/master/stockticker.png)
 
@@ -29,7 +29,7 @@ Two options for setting the environment are given:
 * [Stooq stock files](https://stooq.com/db/h/)
 
 
-### Bootstrap ajax typeahead
+### Bootstrap Ajax Typeahead
 
 This plugin needs to be in place-it is in the repository but follow the directions in the [bootstrap-ajax-typahead github](https://github.com/biggora/bootstrap-ajax-typeahead)
 
@@ -42,7 +42,7 @@ This plugin needs to be in place-it is in the repository but follow the directio
   * There is a separate file for each *stock* or *currency* with a long history of data.  See instructions below for setting the environment variables to limit history load
   
 
-### Set Environment
+### Set Environment variable
 
 The docker compose file has the environment variables set for the redis connection and the location of the data files.
 This code uses redisearch.  The redis database must have both of these modules installed.
@@ -63,8 +63,10 @@ Modify these values in docker-compose.yml
 
 The created index is filtered to only the records where MostRecent is set to true
 
-## docker compose startup
+## Building up the microservices
+
 Build just needs to be done initially
+
 ```bash
 docker-compose build
 docker-compose up -d 
