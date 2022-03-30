@@ -24,8 +24,8 @@ Two options for setting the environment are given:
 
 * [bootstrap ajax typeahead example](https://github.com/biggora/bootstrap-ajax-typeahead)
 * [Redis Stack](https://redis.com/blog/introducing-redis-stack/)
-* [Redis Search](https://redis.io/docs/stack/search/)
-* [Redis Insight](https://redis.io/docs/stack/insight/)
+* [RediSearch](https://redis.io/docs/stack/search/)
+* [RedisInsight](https://redis.io/docs/stack/insight/)
 * [Stooq stock files](https://stooq.com/db/h/)
 
 
