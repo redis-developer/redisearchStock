@@ -2,7 +2,7 @@
 
 A simple stock ticker solution based on downloaded stock files.  Uses redisearch for an API and jquery with bootstrap ajax typeahead plugin.
 
-![](src/static/typeaheadStocks.png)
+![image1](https://raw.githubusercontent.com/redis-developer/stockticker/master/src/static/typeaheadStocks.png)
 
 ## Getting Started
 
