@@ -1,0 +1,38 @@
+{
+  "app_name": "A Simple Stocks Ticker",
+  "description": "A Simple Stocks Ticker solution built using Redis Stack",
+  "type": "Building Block",
+  "contributed_by": "Redis Labs",
+  "repo_url": "https://github.com/redis-developer/stockticker",
+  "preview_image_url": "https://raw.githubusercontent.com/redis-developer/BlobChat/main/images/app_preview_image.png",
+  "download_url": "https://github.com/redis-developer/BlobChat/archive/refs/heads/main.zip",
+  "hosted_url": "",
+  "quick_deploy": "false",
+  "deploy_buttons": [],
+  "language": [
+    "JavaScript"
+  ],
+  "redis_commands": [
+    "FT.CREATE",
+    "HSET",
+    "FT.SEARCH",
+    "RPUSH",
+    "EXPIRE",
+    "LRANGE"
+  ],
+  "redis_features": [
+    "Caching"
+  ],
+  "redis_modules": [
+     "RediSearch"
+  ],
+  "app_image_urls": [],
+  "youtube_url": "https://www.youtube.com/watch?v=OOWw_tPG9ls",
+  "special_tags": [
+    "Hackathon"
+  ],
+  "verticals": [
+    "Retail"
+  ],
+  "markdown": "https://raw.githubusercontent.com/redis-developer/BlobChat/main/README.md"
+}
