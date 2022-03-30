@@ -1,4 +1,4 @@
-# A Simple Stock Ticker solution built with Redis
+# A Simple Stock Ticker solution built using Redis Stack
 
 A simple stock ticker solution based on downloaded stock files.  Uses redisearch for an API and jquery with bootstrap ajax typeahead plugin.
 
