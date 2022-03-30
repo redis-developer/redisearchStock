@@ -1,17 +1,24 @@
-# redisearchStock
+# A Simple Stock Ticker solution built using RediSearch
+
 A simple stock ticker solution based on downloaded stock files.  Uses redisearch for an API and jquery with bootstrap ajax typeahead plugin.
+
 ![](src/static/typeaheadStocks.png)
+
 ## Initial project setup
+
 Get this github code
+
 ```bash 
 get clone https://github.com/jphaugla/redisearchStock.git
 ```
+
 Two options for setting the environment are given:  
   * run with docker-compose using a flask and redis container
   * installing for mac os
   * running on linux (probably in the cloud)
 
 ## Important Links
+
 * [bootstrap ajax typeahead example](https://github.com/biggora/bootstrap-ajax-typeahead)
 * [Redis Stack](https://redis.com/blog/introducing-redis-stack/)
 * [Redis Search](https://redis.io/docs/stack/search/)
@@ -20,9 +27,11 @@ Two options for setting the environment are given:
 
 
 ### Bootstrap ajax typeahead
+
 This plugin needs to be in place-it is in the repository but follow the directions in the [bootstrap-ajax-typahead github](https://github.com/biggora/bootstrap-ajax-typeahead)
 
 ### Download the datafiles to the data subdirectory
+
 * Download stock files here
  [Stooq stock files](https://stooq.com/db/h/)
 * Once downloaded, move the file (it should be a directory called *data*) to the main redisearchStock directory
