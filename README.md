@@ -1,4 +1,4 @@
-# A Simple Stock Ticker solution built using Redis Stack
+# A Simple Stock Ticker 
 
 ![image2](https://raw.githubusercontent.com/redis-developer/stockticker/master/stockticker.png)
 
