@@ -122,7 +122,7 @@ There is python running in the flask container (appy.py) listening for API calls
 
 
 ```bash
- redic-cli -f scripts/searchQueries.txt
+ redis-cli -f scripts/searchQueries.txt
 ```
 
 ##  Notes for running outside of Docker
