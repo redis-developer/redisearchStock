@@ -11,7 +11,7 @@ A simple stock ticker solution based on downloaded stock files.  Uses redisearch
 ### Clone the repository
 
 ```
-git clone https://github.com/redis-developer/redisearchStock
+git clone https://github.com/redis-developer/stockticker
 ```
 
 
