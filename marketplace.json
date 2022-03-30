@@ -4,7 +4,7 @@
   "type": "Building Block",
   "contributed_by": "Redis Labs",
   "repo_url": "https://github.com/redis-developer/stockticker",
-  "preview_image_url": "https://raw.githubusercontent.com/redis-developer/stockticker/main/images/app_preview_image.png",
+  "preview_image_url": "https://raw.githubusercontent.com/redis-developer/stockticker/main/app_preview_image.png",
   "download_url": "https://github.com/redis-developer/stockticker/archive/refs/heads/main.zip",
   "hosted_url": "",
   "quick_deploy": "false",
